@@ -1,0 +1,46 @@
+body {
+  /* background: grey; */
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+button {
+  padding: 0.3rem 0.6rem;
+  font-size: 1.2rem;
+  border: 2px solid black;
+  background: rgb(250, 250, 250);
+  border-radius: 3px;
+  display: block;
+  margin: 1rem auto;
+  cursor: pointer;
+}
+
+button:active {
+  background: rgb(0, 0, 0);
+  color: white;
+}
+
+.question {
+  font-size: 2.4rem;
+  text-align: center;
+}
+
+.answer {
+  background: rgb(5, 255, 5);
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  /* display: inline; */
+  text-align: center;
+  margin: 1rem;
+}
+
+.welcome {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.value {
+  text-align: center;
+}
